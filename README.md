@@ -2,7 +2,7 @@
 
 Once you have initialised repo, clone your local manifest.
 
-`git clone -b lineage-23.1 https://github.com/RMX3366-Development/local_manifests .repo/local_manifests`
+`git clone -b lineage-23.2 https://github.com/RMX3366-Development/local_manifests .repo/local_manifests`
 
 Now sync up and build your ROM.
 
