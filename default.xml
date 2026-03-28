@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="SM8250-Common" fetch="https://github.com/sm8250-common" />
 
     <remote name="RMX3366" fetch="https://github.com/RMX3366-Development" />
 
@@ -12,7 +13,7 @@
     <project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" revision="lineage-23.2" remote="RMX3366" />
 
     <!-- ktree, thanks big bro @bijoyv9 -->
-    <project path="kernel/realme/sm8250" name="android_kernel_realme_sm8250" revision="lineage-23.1" remote="RMX3366" />
+    <project path="kernel/realme/sm8250" name="android_kernel_realme_sm8250" revision="lineage-23.2" remote="SM8250-Common" />
 
     <!-- hardware/oplus -->
     <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-23.2" remote="RMX3366" />
