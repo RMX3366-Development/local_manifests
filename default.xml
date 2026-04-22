@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="SM8250-Common" fetch="https://github.com/sm8250-common" />
+    <remote name="RMX3366_github" 
+        fetch="https://github.com/RMX3366-Development" />
 
-    <remote name="RMX3366" fetch="https://github.com/RMX3366-Development" />
+    <remote name="RMX3366_gitlab" 
+        fetch="https://gitlab.com/RMX3366-Development" />
 
-    <remote name="ermyltsor_gitlab" fetch="https://gitlab.com/ermyltsor" />
+    <remote name="ermyltsor_gitlab" 
+        fetch="https://gitlab.com/ermyltsor" />
+
 
     <!-- device tree -->
-    <project path="device/realme/rivena" name="android_device_realme_rivena" revision="lineage-23.2" remote="RMX3366" />
+    <project path="device/realme/rivena" name="android_device_realme_rivena" revision="lineage-23.2" remote="RMX3366_github" />
 
     <!-- common tree -->
-    <project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" revision="lineage-23.2" remote="RMX3366" />
+    <project path="device/oppo/sm8250-common" name="android_device_oppo_sm8250-common" revision="lineage-23.2" remote="RMX3366_github" />
 
     <!-- ktree, thanks big bro @bijoyv9 -->
-    <project path="kernel/realme/sm8250" name="android_kernel_realme_sm8250" revision="lineage-23.2" remote="SM8250-Common" />
+    <project path="kernel/oppo/sm8250" name="android_kernel_oppo_sm8250" revision="lineage-23.2" remote="RMX3366_github" />
 
     <!-- hardware/oplus -->
-    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-23.2" remote="RMX3366" />
+    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-23.2" remote="RMX3366_github" />
 
     <!-- hardware/dolby -->
-    <project path="hardware/dolby" name="android_hardware_dolby" revision="16" remote="RMX3366" />
+    <project path="hardware/dolby" name="android_hardware_dolby" revision="16" remote="RMX3366_github" />
 
     <!-- vendor device -->
-    <project path="vendor/realme/rivena" name="proprietary_vendor_realme_rivena" revision="lineage-23.2" remote="RMX3366" />
+    <project path="vendor/realme/rivena" name="proprietary_vendor_realme_rivena" revision="lineage-23.2" remote="RMX3366_gitlab" />
 
     <!-- vendor common device -->
-    <project path="vendor/realme/sm8250-common" name="proprietary_vendor_realme_sm8250-common" revision="lineage-23.2" remote="RMX3366" />
+    <project path="vendor/oppo/sm8250-common" name="proprietary_vendor_oppo_sm8250-common" revision="lineage-23.2" remote="RMX3366_gitlab" />
 
     <!-- OPLUS Camera -->
     <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" revision="lineage-23.1" remote="ermyltsor_gitlab" />
